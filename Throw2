@@ -1,0 +1,17 @@
+  
+-- Variables
+
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+-- Settings
+
+bind = "x" -- has to be lowercase
+
+-- Script
+
+mouse.KeyDown:connect(function(key)
+if key == bind then
+game.ReplicatedStorage.StackSkill:FireServer()
+end
+end)
