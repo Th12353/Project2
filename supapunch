@@ -18,6 +18,8 @@ if key == bind then
 game.ReplicatedStorage.Punch:FireServer()
 elseif key == bind2 then
 game.ReplicatedStorage.Skill:FireServer()
+elseif key == bind3 then
+game.ReplicatedStorage.Grab:FireServer()
 elseif key == bind4 then
 game.ReplicatedStorage.Heal:FireServer()
 elseif key == bind5 then
