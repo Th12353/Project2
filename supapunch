@@ -5,7 +5,7 @@ local mouse = player:GetMouse()
 
 -- Settings
 
-bind = "h" -- has to be lowercase
+bind = "j" -- has to be lowercase
 
 -- Script
 
