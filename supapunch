@@ -5,12 +5,12 @@ local mouse = player:GetMouse()
 
 -- Settings
 
-bind = "j" -- has to be lowercase
+1bind = "j" -- has to be lowercase
 
 -- Script
 
-mouse.KeyDown:connect(function(key)
-if key == bind then
+mouse.KeyDown:connect(function(1key)
+if 1key == 1bind then
 game.ReplicatedStorage.Punch:FireServer()
 end
 end)
