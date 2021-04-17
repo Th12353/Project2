@@ -5,12 +5,12 @@ local mouse = player:GetMouse()
 
 -- Settings
 
-bind = "h" -- has to be lowercase
+b1ind = "h" -- has to be lowercase
 
 -- Script
 
-mouse.KeyDown:connect(function(key)
-if key == bind then
+mouse.KeyDown:connect(function(k1ey)
+if k1ey == b1ind then
 game.ReplicatedStorage.Heal:FireServer()
 end
 end)
