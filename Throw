@@ -9,8 +9,8 @@ bin1d = "z" -- has to be lowercase
 
 -- Script
 
-mouse.KeyDown:connect(function(key)
-if key == bin1d then
+mouse.KeyDown:connect(function(key2)
+if key2 == bin1d then
 game.ReplicatedStorage.Skill:FireServer()
 end
 end)
